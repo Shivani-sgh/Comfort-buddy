@@ -1,0 +1,198 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body,html{
+    width:100%;
+    height:100vh;
+    background-color:rgb(171, 189, 226);
+}
+.content-box{
+    margin:20px;
+    border-radius:20px;
+}
+.navbar{
+    height:11vh;
+    background-color: rgba(51, 71, 176, 1);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.right-nav{
+    display:flex;
+    justify-content: space-between;
+    width:35vw;
+    margin-right:10px;
+}
+#nav{
+    margin-top:16px;
+}
+/* hambuger menu */
+.menu-container{
+    position:relative;
+}
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    color:white;
+    margin-top:9px;
+}
+.dropdown {
+    position: absolute;
+    top:40px;
+    right:0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius:4px;
+}
+.dropdown a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #eee;
+  }
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+
+  .hidden {
+    display: none;
+  }
+/* search button */
+.search-button{
+    border:1px solid white;
+    padding:5px;
+    margin-top:15px;
+    width:2.3vw;
+    border-radius:3px;
+    margin-left:-4.5px;
+    
+}
+.search-input{
+    border:1px solid white;
+    padding:5px;
+    margin-top:15px;
+    width:17vw;
+    border-radius:3px
+}
+/* main content */
+.content{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.left-content{
+    height:82vh;
+    width:60vw;
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.welcome{
+    font-size:40px;
+    margin:5px 40px;
+    font-weight:600;
+    color:rgb(94, 94, 179);
+}
+.welcome:hover{
+    color:black;
+}
+.Meal-planner{
+    height:35vh;
+    width:50vw;
+    background-color: rgba(255, 239, 195, 1);
+    border-radius: 25px;
+    display: flex;
+    
+}
+.meal-logo{
+    font-size:120px;
+    margin:30px 60px 20px;
+    width:vw;
+    
+
+}
+.heading1{
+    height:15vh;
+    margin-top:30px;
+    margin-left:-10px;
+    /* height:5vh; */
+}
+.button1{
+    font-size:20px;
+    padding:5px;
+    width:15vw;
+}
+
+
+.finance-manager{
+    height:25vh;
+    width:25vw;
+    background-color: rgb(175, 241, 169);
+    border-radius: 25px;
+}
+.heading2{
+    width:18vw;
+    
+    margin:-50px 70px;
+
+}
+
+.local-intern{
+    height:25vh;
+    width:30vw;
+    background-color:rgba(220, 230, 255, 1) ;
+    border-radius: 25px;
+
+}
+.heading3{
+    width:18vw;
+    margin-left:9vw;
+    margin-top:-11vh;
+}
+
+/* right */
+
+.right-content{
+    background-color: white;
+    height:82vh;
+    width:40vw;   
+    display:flex;
+    flex-wrap: wrap;
+}
+.today-planner{
+    margin-top:10px;
+    height:18vh;
+    width:26vw;
+    background-color:rgb(220, 254, 255) ;
+    border-radius: 20px;
+    margin-left:45px;
+}
+.Digital-dom{
+    height:25vh;
+    width:30vw;
+    background-color:rgb(163, 207, 236) ;
+    border-radius: 20px;
+    margin-left:30px;
+
+}
+.heading4{
+    width:20vw;
+    margin-left:15vw;
+    margin-top:-17vh;
+}
+.Roomate-matching{
+    height:30vh;
+    width:35vw;
+    background-color: rgb(240, 203, 245);
+    border-radius: 20px;
+}

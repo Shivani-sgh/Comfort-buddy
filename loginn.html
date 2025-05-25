@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="content-box">
+        <div class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap" style="color:white;font-size: 25px;padding:17px;">  ComfortBuddy</i>
+            </div>
+            <div class="right-nav">
+                <div class="search-container">
+                    <input type="text" placeholder="Search anything..." class="search-input">
+                    <button class="search-button">🔍</i></button>
+                </div>
+                <a id="nav" style="color:white;text-decoration:none;font-size:18px;font-weight:600" href="index.html">Home</a>
+                <i  id="nav"class="fa-solid fa-cart-shopping" style="color:white;font-size:30px;"></i>
+                <div class="menu-container">
+                    <div class="hamburger" onclick="toggleMenu()">
+                      &#9776;  <!-- This is the 3-bar icon -->
+                    </div>
+                    <div id="dropdown" class="dropdown hidden">
+                      <a href="#">Profile</a>
+                      <a href="#">My Posts</a>
+                      <a href="#">Settings</a>
+                      <a href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-content">
+                <p class="welcome" style="margin-left:-19vw;margin-top:10px">Welcome,Students</p>
+                <div class="Meal-planner">
+                    <div class="meal-logo">
+                        <i class="fa-solid fa-utensils" style="color:orange;"></i>
+                    </div>
+                    <div class="heading1">
+                        <h1 style="font-size:40px;">MEAL PLANNER</h1>
+                        <p style="margin-bottom: 10px;color:rgb(67, 67, 110);">Plan your weekly meals.</p>
+                        <button class="button1"><a href="mealplanner.html" style="color:rgb(29, 27, 27);text-decoration: none;;">View Plan</a></button>
+                    </div>
+                </div>
+                <div class="finance-manager">
+                    <div class="logo2">
+                        <i class="fa-solid fa-file" style="font-size:50px;color:rgb(25, 68, 21);margin:15px;margin-top:25px;"></i>
+                    </div>
+                    <div class="heading2">
+                        <h1 style="font-size:25px;" class="head2">Finance Manage</h1>
+                        <p style="font-size:15px;margin-bottom:8px;">Track your expenses and budget</p>
+                        <button style="padding:6px;">Veiw Summary</button>
+                    </div>
+                </div>
+                <div class="local-intern">
+                    <div class="logo3">
+                        <i class="fa-solid fa-user-tie" style="font-size:60px;color:rgb(12, 89, 134);margin-top:7vh;margin-left:3vw;"></i>
+                    </div>
+                    <div class="heading3">
+                        <h1 style="font-size:25px;" class="head2">Local Internships</h1>
+                        <p style="font-size:15px;margin-bottom:8px;">Find Internship opportunities</p>
+                        <button style="padding:6px;width:7vw;font-size:16px;">Search</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="today-planner">
+                     <div class="heading5">
+                        <i class="fa-solid fa-comment" style="color:rgb(38, 96, 100);font-size:55px;margin:20px;"></i>
+                        <p style="color:rgb(26, 26, 95);font-weight:600;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:17px;margin-left:7vw;margin-top:-70px;">When student feels supported,success becomes unstoppable</p>
+                     </div>
+                </div>
+                <div class="Digital-dom">
+                    <div class="logo4">
+                        <i class="fa-solid fa-briefcase" style="font-size:60px;color:rgb(19, 83, 121);margin-top:7vh;margin-left:3vw;"></i>
+                    </div>
+                    <div class="heading3" style="margin-left:10vw;margin-top:-12vh;">
+                        <h1 style="font-size:25px;" class="head2">Digital Dorm</h1>
+                        <p style="font-size:15px;margin-bottom:8px;">Buy and sell student items</p>
+                        <button style="padding:6px;width:7vw;font-size:16px;">Search</button>
+                    </div>
+                    
+                </div>
+                <div class="Roomate-matching">
+                    <div class="logo5">
+                        <i class="fa-regular fa-id-card" style="font-size:80px;margin-left:5vw;margin-top:7vh;"></i>
+                    </div>
+                    <div class="heading4">
+                        <h1 style="font-size:30px;" class="head2">Roommate Matching</h1>
+                        <p style="font-size:15px;margin-bottom:8px;">Discover compatible roommates</p>
+                        <button style="padding:4px;width:9vw;font-size:16px;">Find Maches</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+<script src="script.js"></script>   
+</body>
+</html>

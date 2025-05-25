@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body,html{
+    height:100vh;
+    width:100%;
+    background-color: rgb(179, 210, 253);
+    background: linear-gradient(125deg,rgb(149, 190, 192),rgb(48, 117, 214));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Login-card */
+.login-card{
+    width:27vw;
+    height:75vh;
+    padding:40px;
+    background-color: white;
+    border-radius:20px;
+    box-shadow:15px 15px 15px rgb(72, 136, 226,6);
+    
+}
+.campus-logo{
+    font-size:x-large;
+    color:rgba(51, 71, 176, 1);
+    margin-left:30px;
+}
+#welcome{
+    margin:20px 19px 5px;
+    font-family:'Poppins', sans-serif;
+}
+#slogan-1{
+    font-size:14px;
+    margin-left:8px;
+    margin-bottom:25px;
+}
+.login-details{
+    font-size:40px;
+}
+.input{
+    font-size:22px;
+    margin:5px 2px;
+    border-radius:5px;
+    border:1px solid rgb(218, 211, 211);
+    padding:2px;
+
+}
+.login-button{
+    font-size:20px;
+    background-color: rgba(51, 102, 255, 1);
+    width:21.5vw;
+    font-family:'Poppins', sans-serif;
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:3px;
+}
+#forget-pass{
+    margin-left:5.5vw;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+#account{
+    margin-left:2vw;
+    text-decoration: none;
+}
+
+
+
+
