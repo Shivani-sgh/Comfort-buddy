@@ -67,7 +67,9 @@ body,html{
     margin-left:2vw;
     text-decoration: none;
 }
-
+.greeting-text{
+    width:250px;
+}
 
 
 
